@@ -1,0 +1,5 @@
+<?php
+if (!empty($message)){
+       echo '<h2>'.$message['name'].'</h2><br>';
+       echo '<h4>'.$message['message'].'</h4>';
+}
