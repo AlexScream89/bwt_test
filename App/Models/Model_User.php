@@ -44,7 +44,7 @@ Class Model_User Extends Model_Base {
        }
    }
 
-   static public function is_auth() {
+   public static function is_auth() {
        if (!empty($_SESSION['user'])) {
            return true;
        }
